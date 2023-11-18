@@ -1,0 +1,18 @@
+[
+    {
+        "down_0": null,
+        "conv_relu_0": null
+    },
+    {
+        "down_0": [2],
+        "conv_relu_0": [3, 64]
+    },
+    {
+        "down_0": [4],
+        "conv_relu_0": [3, 128]
+    },
+    {
+        "down_0": [8],
+        "conv_relu_0": [3, 256]
+    }
+]
