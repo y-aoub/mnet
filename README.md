@@ -4,7 +4,7 @@ The `preprocess.py` script is designed to preprocess a dataset using the `DataPr
 
 ## Usage
 
-Before running the script, make sure you have the necessary data directories: `raw_images` and `raw_masks` in the parent `data` directory.
+Before running the script, make sure you have the necessary data directories: `raw_images` and `raw_masks` in the parent `data` directory. Find the link to download data [here](https://drive.google.com/file/d/1svVhcxeeEFaEU-MlQSYH-madg6aYx2h6/view?usp=sharing): 
 
 ### Command-line Arguments
 
