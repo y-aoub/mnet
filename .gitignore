@@ -1,4 +1,7 @@
+.env
 data/raw_images
 data/raw_masks
+data/processed_images
+data/processed_masks
 data/__pycache__
 src/__pycache__
