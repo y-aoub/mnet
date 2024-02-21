@@ -154,3 +154,8 @@ class DataProcessing:
         new_size = (self.size, self.size)
         resized_image, resized_mask = cv2.resize(image, new_size), cv2.resize(mask, new_size)
         return resized_image, resized_mask
+    
+if __name__ == "__main__":
+    
+    ######## TEST ##########
+    pass
