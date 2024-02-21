@@ -11,3 +11,8 @@ class MNetLoss(nn.Module):
         losses = [self.dice_loss(pred, target) for pred in preds]
         mean_loss = torch.mean(torch.stack(losses))
         return mean_loss
+    
+if __name__ == "__main__":
+    
+    ######## TEST ##########
+    pass

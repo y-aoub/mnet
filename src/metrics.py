@@ -33,6 +33,8 @@ class Metrics:
         return mean_dice_score, specificity, sensitivity, combined_metric
 
 if __name__ == "__main__":
+    
+    ######## TEST ##########
     metrics = Metrics()
     model = MNet()
     transforms = Transforms()
@@ -56,19 +58,6 @@ if __name__ == "__main__":
     # model output thresholded [1, 2, 400, 400]
     post_pred = transforms.thresholding(pred)
     print(f"PRED_THRESHOLDED SHAPE : {post_pred.shape}")
-    
-
-    
-    
-    
-    # post_target_0 = post_target[:, 0, :, :]
-    # post_target_1 = post_target[:, 1, :, :]
-    # post_target_2 = post_target[:, 2, :, :]
-    
-    # post_pred_0 = post_pred[:, 0, :, :]
-    # post_pred_1 = post_pred[:, 1, :, :]
-    # post_pred_2 = post_pred[:, 2, :, :]
-    
     
     mean_dice_score, specificity, sensitivity, combined_metric = metrics.compute_metrics(post_pred, post_target)
 

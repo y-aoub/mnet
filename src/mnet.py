@@ -162,6 +162,8 @@ class MNet(nn.Module):
         return convout1, convout2, convout3, convout4, finalout
     
 if __name__ == "__main__":
+    
+    ######## TEST ##########
     test_image = torch.torch.randn([1, 3, 400, 400])
     
     mnet = MNet()
